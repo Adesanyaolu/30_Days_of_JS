@@ -1,15 +1,15 @@
 console.log(countries)
 //alert('Open the browser console whenever you work on JavaScript')
 //alert('Open the console and check if the countries has been loaded')
-/* const arr = Array() // creates an an empty array
+const arr = Array() // creates an an empty array
 console.log(arr)
 
 const eightEmptyValues = Array(8) // it creates eight empty values
 console.log(eightEmptyValues) // [empty x*/
 
-const arr = [1, 3, 4, "Forward", "Here"];
-let lastIndex = arr.length-1
-console.log (arr[lastIndex]);
+const elements = [1, 3, 4, "Forward", "Here"];
+let lastIndex = elements.length-1
+console.log (elements[lastIndex]);
 /*
 Declare an array called mixedDataTypes, put different data types in the array and find the length of the array. The array size should be greater than 5
 Declare an array variable name itCompanies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon
@@ -27,6 +27,11 @@ console.log(itCompanies.length);
 console.log(itCompanies[0]);
 console.log(itCompanies[3]);
 console.log(itCompanies[lastItCompany]);
-let uppercase = itCompanies.toUpperCase[0];
-console.log (uppercase)
+console.log(itCompanies[0].toUpperCase)
+// let uppercase = itCompanies.toUpperCase[];
+//console.log (uppercase)
 // new line
+console.log(itCompanies.toString(',') + " are big IT companies");
+console.log(itCompanies.join(','))
+let companyExist =  itCompanies.includes("Google");
+console.log(companyExist)
