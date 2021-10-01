@@ -13,3 +13,4 @@ while (f >= 0){
      console.log (g)
      g--
  } while (g >= 0)
+ console.table(2)
