@@ -9,10 +9,10 @@ let first_Name = "Adesanya",
     isMarried = false,
     year = 2021;
 
-console.log (firstName);
+console.log (first_Name);
 // Check if type of '10' is equal to 10
 let ten_three = '10';
-let tenInt_three = parseInt(ten);
+let tenInt_three = parseInt(ten_three);
 console.log(tenInt_three);
 
 //Check if parseInt('9.8') is equal to 10
